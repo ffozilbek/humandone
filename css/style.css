@@ -1,4 +1,32 @@
 /* CUSTOM PROPS */
+:root {
+    --black: #000;
+    --white: #fff;
+    --orange: #ffb748;
+    --gray: #c4c4c4;
+}
+
+/* FONTS */
+@font-face {
+    font-family: 'Arimo';
+    src: url('/fonts/Arimo-Bold.woff2') format('woff2'),
+        url('/fonts/Arimo-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arimo';
+    src: url('/fonts/Arimo-SemiBold.woff2') format('woff2'),
+        url('/fonts/Arimo-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 
 /* GLOBAL */
 html {
@@ -24,14 +52,18 @@ body {
     line-height: 1.5;
     font-family: "Roboto","Arial",sans-serif;
     flex-direction: column;
-    background-color: #fff;
-    color: #222;
+    background-color: var(--black);
+    color: var(--gray);
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     display: block;
+}
+
+h1,h2,h3 {
+    margin: 0;
 }
 
 main {
