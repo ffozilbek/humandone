@@ -142,13 +142,49 @@
         </section>
 
         <!-- FORM -->
-        <section class="form">
-
+        <section class="contact">
+            <div class="container">
+                <form class="contact__form form" action="https://echo.htmlacademy.ru/courses" method="get">
+                    <h2 class="contact__heading">Связаться <br>
+                        с нами</h2>
+                    <input class="form__input" type="text" placeholder="Название компании" name="Название компании"
+                        required>
+                    <input class="form__input" type="number" placeholder="Номер телефона" name="Номер телефона"
+                        required>
+                    <input class="form__input" type="text" placeholder="УНП" name="УНП" required>
+                    <button class="form__submit" type="submit">Отправить заявку</button>
+                </form>
+            </div>
         </section>
 
         <!-- FOOTER -->
         <section class="footer">
+            <div class="footer__container container">
+                <ul class="footer__brand">
+                    <li class="footer__item footer__email">hello@humandone.com</li>
+                    <li class="footer__item">
+                        <a class="footer__logo logo" href="index.html">
+                            <img class="logo__img" src="./img/hero-logo.svg" alt="HUMANDONE logo" width="92"
+                                height="24">
+                            <span class="logo__text"> Belagroprombank</span>
+                        </a>
+                    </li>
+                </ul>
 
+                <ul class="footer__list">
+                    <li class="footer__item">О нас</li>
+                    <li class="footer__item">Кто мы такие</li>
+                    <li class="footer__item">Чем занимаемся</li>
+                    <li class="footer__item">Наша команда</li>
+                </ul>
+
+                <ul class="footer__list">
+                    <li class="footer__item">Информация</li>
+                    <li class="footer__item">УНП: 193413357</li>
+                    <li class="footer__item">Адрес: ул. Пугачевская, д. 7, оф. 14</li>
+                    <li class="footer__item">IBAN: BY23BAPB30134638500100000000</li>
+                </ul>
+            </div>
         </section>
     </main>
     <script src="./js/script.js"></script>
